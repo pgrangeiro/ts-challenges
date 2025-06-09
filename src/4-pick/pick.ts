@@ -2,12 +2,6 @@
 Provided by TS in order to facilitate common type transformations.
 */
 
-interface Todo {
-  title: string;
-  description: string;
-  completed: boolean;
-}
-
 /* Object types
 //Anonymous
 function greet(person: { name: string; age: number }) {}
@@ -28,4 +22,4 @@ Gets an object type and creates an union of its keys
 type K = 'title' | 'description' | 'completed'
 */
 
-export { Todo, CustomPick };
+export { CustomPick };

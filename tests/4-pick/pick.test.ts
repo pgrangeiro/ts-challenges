@@ -1,4 +1,10 @@
-import { CustomPick, Todo } from "src/4-pick/pick";
+import { CustomPick } from "src/4-pick/pick";
+
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
 
 describe("CustomPick", () => {
   test("should pick attributes correctly", () => {
