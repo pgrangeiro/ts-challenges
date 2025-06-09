@@ -1,18 +1,29 @@
 {
   "name": "ts-challenges",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Type Challeges solved by @pgrangeiro",
   "scripts": {
     "test": "vitest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Paula Grangeiro",
+  "license": "GPL-3.0-or-later",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "vitest": "^3.2.2"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgrangeiro/ts-challenges.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pgrangeiro/ts-challenges/issues"
+  },
+  "homepage": "https://github.com/pgrangeiro/ts-challenges#readme"
 }
